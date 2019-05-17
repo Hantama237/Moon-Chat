@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/username"
+        android:layout_toRightOf="@+id/profile_image"
+        android:layout_toEndOf="@+id/profile_image"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="false"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/countMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:textSize="10sp"
+
+        android:paddingRight="3dp"
+        android:paddingTop="1dp"
+        android:paddingLeft="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/mess_countbg"
+        android:layout_toRightOf="@+id/username"
+        android:text="123"
+        android:visibility="gone"
+        android:textColor="@color/orange"
+        />
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status ini kosong"
+        android:layout_below="@+id/username"
+        android:layout_toEndOf="@+id/profile_image"
+        android:layout_marginLeft="10dp"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/on"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:src="@color/onlineDark"
+        android:layout_below="@id/username"
+        android:layout_toRightOf="@id/profile_image"
+        android:visibility="gone"
+        android:layout_marginLeft="-8dp"
+        android:layout_marginTop="1dp"
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/off"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:src="#c4c4c4"
+        android:layout_below="@id/username"
+        android:layout_toRightOf="@id/profile_image"
+        android:visibility="gone"
+        android:layout_marginLeft="-8dp"
+        android:layout_marginTop="1dp"
+        />
+
+</RelativeLayout>

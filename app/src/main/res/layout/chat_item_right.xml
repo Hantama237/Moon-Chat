@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp">
+    <RelativeLayout
+        android:layout_width="340dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+        <LinearLayout
+            android:id="@+id/contM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="42dp"
+            android:layout_alignParentEnd="true">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40dp"
+            android:id="@+id/profile_image1"
+            android:layout_alignParentEnd="true"
+            android:src="@mipmap/ic_launcher"
+            android:layout_height="40dp"
+            android:visibility="gone"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:autoLink="web"
+            android:layout_toLeftOf="@+id/profile_image1"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/background_right"
+            android:id="@+id/show_message"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:text="Hellaw asdasdasdasdasdasdasdasdaaddddd"
+            android:padding="8dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="5dp"
+            />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/date"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/contM"
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:layout_marginRight="-43dp"
+            android:text="12:00 PM"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/read"
+            android:layout_width="wrap_content"
+            android:text="Read"
+            android:textSize="10sp"
+            android:layout_below="@+id/date"
+            android:layout_height="15dp"
+            android:layout_marginRight="-43dp"
+            android:visibility="visible"
+            android:layout_toLeftOf="@id/contM"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

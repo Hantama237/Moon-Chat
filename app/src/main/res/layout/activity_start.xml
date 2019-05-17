@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".StartActivity">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-15dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <TextView
+        android:id="@+id/climberschat"
+        android:layout_marginTop="123dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/orange"
+        android:gravity="center_horizontal"
+        android:text="Welcome to\nMoonChat!"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/orange"
+        android:text="LOGIN ahay!"
+        android:id="@+id/login"
+        android:layout_below="@+id/climberschat"
+
+        />
+    <Button
+        android:layout_below="@+id/login"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="DAFTAR"
+        android:id="@+id/register"
+
+        />
+    <Button
+        android:id="@+id/lupa"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:text="Lupa Akun?"/>
+
+</RelativeLayout>

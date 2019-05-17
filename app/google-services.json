@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "330181828224",
+    "firebase_url": "https://climberschat.firebaseio.com",
+    "project_id": "climberschat",
+    "storage_bucket": "climberschat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330181828224:android:6382f48f70cc4305",
+        "android_client_info": {
+          "package_name": "com.hantama.climberschat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330181828224-u3mki1esp7erl6r33havb67jrr4r8lb8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hantama.climberschat",
+            "certificate_hash": "2724cdeb36f01145a3972bc642fb29e05688dad0"
+          }
+        },
+        {
+          "client_id": "330181828224-833b7m3crvuagrein9l90ji63d9ld2d7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4_5EhvWjb99j836Y2FVjVgjvx5Tx-LH0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330181828224-833b7m3crvuagrein9l90ji63d9ld2d7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
